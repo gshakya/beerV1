@@ -16,7 +16,7 @@ public class BeerExpert {
 
     public List getBrands(String color) {
         List brands = new ArrayList();
-        if (color == "Amber"){
+        if (color.equals("Amber")){
             brands.add("Jack Amber");
             brands.add("Red Moose");
             }
